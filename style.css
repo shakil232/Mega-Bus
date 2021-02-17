@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style-type: none;
 }
-body{
+#front-page{
     font-family: 'Roboto', sans-serif;
     background:url("images/bus.png");
     background-repeat: no-repeat;
@@ -26,13 +26,13 @@ nav{
 nav ul{
     display: flex;
     justify-content: flex-end;
-    margin: 0px 6px;
+    margin: 0px 6px;   
 }
 nav ul li a{
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 30px;    
 }
 nav ul li a:hover, a.active{
     background-color: #52AF3A;
@@ -121,4 +121,29 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.total-text-color{
+   color: darkviolet;
+}
+.label-color{
+    font-size: 25px;
+    color:Salmon ;
+}
+
+/* secendpart */
+#confirm-area{
+    display: none;
+    padding: 100px;
+}
+.text-color{
+    color: goldenrod;
+}
+#ticket-color{
+color: indigo;
+}
+#total-color{
+    color: tomato;
+}
+.button{
+    font-size: 20px;
 }
